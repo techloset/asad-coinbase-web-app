@@ -17,7 +17,7 @@ const Navbar = () => {
 
                     <div className="flex items-center ">
                         <span className="ml-3 font-bold">Sell Bitcoin/GiftCard</span>
-                        <button class="rounded-3xl bg-blue-400 border-2 px-6 py-3 ml-4 font-bold">LOGIN</button>
+                        <button class="bg-gradient-to-r from-pink-600 to-blue-500 rounded-3xl border-2 px-7 py-3 ml-4 font-bold text-white">LOGIN</button>
                     </div>
                 </div>
             </div>
