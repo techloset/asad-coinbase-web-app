@@ -8,6 +8,12 @@ module.exports = {
       backgroundImage: {
         'rectangle': "url('/images/rectangle.png')",
         'path': "url('/images/path4.png')",
+        'path41': "url('/images/path41.png')",
+        'bg': "url('/images/bg.png')",
+        'layer5': "url('/images/layerback5.png')",
+        'path4.1': "url('/images/path4.1.png')",
+
+        
       }
     },
   },

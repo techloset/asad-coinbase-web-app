@@ -6,7 +6,7 @@ const Footer = () => {
                 <div className="py-14 container mx-auto">
                     <div className="flex items-center justify-around">
                         <div>
-                            <img src="/images/footerlogo.png" alt="logo" className="text-5xl mb-5"/>
+                            <img src="/images/footerlogo.png" alt="logo" className="text-5xl mb-5" />
                             <p className="mt-3"> Fusce ut elit aliquet, fermentum leo vel, <br /> tempus nunc. Fusce eu rhoncus augue. <br />Fusce vel metus pharetra, fermentum</p>
                             <img className="mt-3" src="/images/SocialMediaIcons.png" alt="social" />
                         </div>
@@ -27,12 +27,20 @@ const Footer = () => {
                             <br />
                             <br />
                             <p >Download Over App</p> </div>
-                        
+
 
                         <div className="text-white">
                             <h1 className="text-2xl mb-5">CoinBase Insagram</h1>
-                         <img className="" src="/images/footerbox.png" alt="social" />
-                            <img className="mt-2" src="/images/footerbox.png" alt="social" />      
+                            <div className='mt-8 flex flex-wrap gap-3 max-w-xs'>
+                                <img src="/images/footerbox.png" alt="social" />
+                                <img  src="/images/footerbox.png" alt="social" />
+                                <img src="/images/footerbox.png" alt="social" />
+                                <img  src="/images/footerbox.png" alt="social" />
+                                <img src="/images/footerbox.png" alt="social" />
+                                <img  src="/images/footerbox.png" alt="social" />
+                                <img src="/images/footerbox.png" alt="social" />
+                                <img  src="/images/footerbox.png" alt="social" />
+                            </div>
                         </div>
 
                     </div>
