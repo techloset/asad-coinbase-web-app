@@ -5,32 +5,32 @@ import { useState } from "react";
 
 
 const Navbar = () => {
-    const [navbar, setNavbar] = useState(false);
-    return (
-        <>
-            <div className="py-3 container mx-auto xs:hidden">
-                <div className="flex items-center  justify-around my-5">
-                    <div className="b"> 
-                 <Link to="./"><img src="/images/Logo.png" alt="logo" /> </Link>
-                    </div>
+  const [navbar, setNavbar] = useState(false);
+  return (
+    <>
+      <div className="py-3 container mx-auto xs:hidden">
+        <div className="flex items-center  justify-around my-5">
+          <div className="b">
+            <Link to="./"><img src="/images/Logo.png" alt="logo" /> </Link>
+          </div>
 
-                    <div className="flex justify-between">
-                     <Link to="./">  <span className="ml-6 font-bold">Home</span> </Link>
-                     <Link to="./about"> <span className="ml-6 font-bold">About Us</span></Link>
-                     <Link to="./blog">  <span className="ml-6 font-bold">Blog</span></Link>
-                    <span className="ml-6 font-bold">Contact Us</span>
-                    </div>
+          <div className="flex justify-between">
+            <Link to="./">  <span className="ml-6 font-bold">Home</span> </Link>
+            <Link to="./about"> <span className="ml-6 font-bold">About Us</span></Link>
+            <Link to="./blog">  <span className="ml-6 font-bold">Blog</span></Link>
+            <span className="ml-6 font-bold">Contact Us</span>
+          </div>
 
-                    <div className="flex items-center ">
-                        <span className="ml-3 font-bold">Sell Bitcoin/GiftCard</span>
-                        <button class="login-header rounded-3xl border-2 px-7 py-3 ml-4 font-bold text-white">LOGIN</button>
-                    </div>
-                </div>
-            </div>
+          <div className="flex items-center ">
+            <span className="ml-3 font-bold">Sell Bitcoin/GiftCard</span>
+            <button class="login-header rounded-3xl border-2 px-7 py-3 ml-4 font-bold text-white">LOGIN</button>
+          </div>
+        </div>
+      </div>
 
-            {/* Mobile view  */}
+      {/* Mobile view  */}
 
-            <nav className="w-full bg-white shadow sm:hidden">
+      <nav className="w-full bg-white shadow sm:hidden">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -102,8 +102,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-        </>
-    )
+    </>
+  )
 }
 
 export default Navbar;

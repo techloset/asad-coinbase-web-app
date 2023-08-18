@@ -1,4 +1,4 @@
-import './App.css';
+
 import { Routes, Route } from "react-router-dom";
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
-        <Route exact path="/about" element={<About/>} />
+        <Route exact path="/about" element={<About />} />
         <Route exact path='/blog' element={<Blog />} />
         <Route exact path='/blogContent' element={<BlogContent />} />
       </Routes>

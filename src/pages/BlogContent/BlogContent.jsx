@@ -10,8 +10,8 @@ const BlogContent = () => {
     return (
         <>
             {/* Blog page Data */}
-            <div className="  flex justify-center BlogContentHero min-h-[100vh]">
-                <div className='  sm:mt-60 xs:mt-44 sm:w-[50%] xs:w-[80%]'>
+            <div className="flex justify-center BlogContentHero min-h-[100vh]">
+                <div className='sm:mt-60 xs:mt-44 sm:w-[50%] xs:w-[80%]'>
                     <h2 className='leading-snug text-3xl text-center text-white  '>
                         ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER Transactions
                     </h2>
@@ -79,7 +79,7 @@ const BlogContent = () => {
                         <span className='text-xs text-gray-400 xs:text-left'>Prev Post</span>
                     </div>
                     <div>
-                    <span className='text-xs text-gray-400  flex justify-end xs:justify-start'>Next Post</span>
+                        <span className='text-xs text-gray-400  flex justify-end xs:justify-start'>Next Post</span>
                     </div>
                 </div>
 
@@ -87,12 +87,12 @@ const BlogContent = () => {
                     <h2 className='font-bold text-2xl'>Leave A Comment</h2>
                     <p className='font-normal text-base mt-3 text-[#333333]'>Your email address will not be published. Required fields are marked *</p>
                     <form action="" className='mt-6 mb-14'>
-                        <input type="text" placeholder='Name *' className=' px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full ' required/>
-                        <input type="Email" placeholder='Email *' className=' md:ml-3 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required/>
+                        <input type="text" placeholder='Name *' className=' px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full ' required />
+                        <input type="Email" placeholder='Email *' className=' md:ml-3 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required />
                         <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-8 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>
-                    <button type='submit' className='mt-3'>
-                        <img src={Publish} alt="Publish" />
-                    </button>
+                        <button type='submit' className='mt-3'>
+                            <img src={Publish} alt="Publish" />
+                        </button>
                     </form>
                 </div>
             </div>
