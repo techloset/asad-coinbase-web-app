@@ -95,10 +95,10 @@ function Blog() {
                 <nav aria-label="Page navigation example">
                     <ul class="inline-flex xs:flex-wrap xs:justify-center -space-x-px text-base h-10">
                         <li className='mt-5 mr-2'>
-                            <a href="#" class="flex items-center justify-center  px-4 h-10 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
+                            {/* <a href="#" class="flex items-center justify-center  px-4 h-10 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a> */}
                         </li>
                         <li>
-                            <a href="#" aria-current="page" class="flex items-center bg-purple-500  text-white rounded-full mt-5 mr-3 justify-center px-4 h-10 leading-tight border border-gray-300 hover:bg-purple-800 hover:text-white ">01</a>
+                            <a href="#" aria-current="page" class="flex items-center login-header  text-white rounded-full mt-5 mr-3 justify-center px-4 h-10 leading-tight border border-gray-300 hover:bg-purple-800 hover:text-white ">01</a>
 
 
                         </li>

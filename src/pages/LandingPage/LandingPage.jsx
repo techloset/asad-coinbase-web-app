@@ -8,11 +8,18 @@ import iphone2 from '../../images/X-2.svg'
 import section10 from '../../images/subscribe.svg'
 import discover from '../../images/btn2.svg'
 import readmore from '../../images/readmorebtn.svg'
+import eth from '../../images/Eth.svg'
+import bank from '../../images/bank-building.svg'
+import OurRates from '../../images/OurRates.svg'
+import OurRates2 from '../../images/OurRates2.svg'
+import OurRates3 from '../../images/OurRates3.svg'
+import bitcoin from '../../images/bitcoin.svg'
+
 // import {  NavLink } from 'react-router-dom'
 
 
 const LandingPage = () => {
-    
+
 
     return (
         <>
@@ -60,72 +67,85 @@ const LandingPage = () => {
                 </div>
             </div>
 
+            {/* landing page section 3 */}
 
-            <div className="bg-gradient-to-r from-pink-600 to-blue-500 my-24 px-40 py-40">
-                <div className="rounded-2xl bg-white">
-                    <div className="flex justify-around justify-items-center pt-8" >
-                        <p className="text-xl font-bold text-purple-400">OUR RATES </p>
-                        <p className="text-xl font-bold text-purple-400">OUR RESERVES </p>
-                        <p className="text-xl font-bold text-purple-400">LATEST EXCHANGES </p>
-                    </div>
-                    <hr className="mt-8" />
-                    <div className="text-right"><button class="login-header rounded-xl border-2 px-3 py-2  font-bold text-white mr-16 mt-12">8 hours ago</button></div>
-
-                    <div className="flex justify-around justify-items-center mt-4" >
-                        <div className="flex justify-items-center justify-around">
-                            <div className="mr-4">
-                                <img src="/images/bitcoin.png" alt="btc" /> </div>
-                            <div> <span className="mr-4">BTC</span> <span>We Buy@</span> <span className="font-bold">N350/$</span> <br />
-                                <span className="ml-12">We Sell@</span> <span className="font-bold">N350/$</span>
-                            </div>
+            <div className='heroBg2 min-h-[150vh] xs:hidden sm:hidden lg:block '>
+                <div className='pt-[33%]'>
+                    <div className='max-w-[80%] mx-auto bg-white py-10 rounded-3xl'>
+                        <div className='flex justify-around'>
+                            <h2><img src={OurRates} alt="" /></h2>
+                            <h2><img src={OurRates2} alt="" /></h2>
+                            <h2><img src={OurRates3} alt="" /></h2>
                         </div>
-
-                        <div className="flex justify-items-center justify-around">
-                            <div className="mr-4">
-                                <img src="/images/bank.png" alt="btc" /> </div>
-                            <div> <span className="mr-4">Bank Transfer</span> <span className="text-right ml-16">NGN</span> <br />
-                                <span className="ml-12 font-bold">#3452030300303.24/$</span>
-                            </div>
-                        </div>
-
-                        <div className="flex justify-items-center justify-around">
+                        <hr className='mt-4 border-2 border-[rgba(187, 187, 187, 1)]' />
+                        <div className='grid grid-cols-3'>
                             <div>
-                                <span>Bitcoin BTC  Bank</span>
-                                <br /><span>Transfer TNG</span>
-                            </div>
-                        </div>
-                    </div>
+                                <div className='mt-6'>
+                                    <div className='flex  justify-evenly'>
+                                        <img src={bitcoin} alt="" />
+                                        <div className='ml-3'>
+                                            <p className='mb-3'>We Buy @ ₦350/$</p>
+                                            <p>We Buy @ ₦350/$</p>
+                                        </div>
+                                    </div>
+                                    <div className='flex justify-evenly mt-9 '>
+                                        <img src={eth} alt="" />
+                                        <div className='ml-4'>
+                                            <p className='mb-3'>We Buy @ ₦350/$</p>
+                                            <p>We Buy @ ₦350/$</p>
+                                        </div>
+                                    </div>
 
-                    <div className="flex justify-around justify-items-center mt-4" >
-                        <div className="flex justify-items-center justify-around">
-                            <div className="mr-4">
-                                <img src="/images/eth.png" alt="etc" /> </div>
-                            <div> <span className="mr-4">ETC</span> <span>We Buy@</span> <span className="font-bold">N350/$</span> <br />
-                                <span className="ml-12">We Sell@</span> <span className="font-bold">N350/$</span>
+                                </div>
                             </div>
-                        </div>
-
-                        <div className="flex justify-items-center justify-around">
-                            <div className="mr-4">
-                                <img src="/images/bitcoin.png" alt="btc" /> </div>
-                            <div> <span className="mr-4">Bitcoin</span> <span className="text-right ml-20"> <span className="font-bold">399.98</span> BTC</span> <br />
-                                <span className="mr-4">Ethereum</span> <span className="text-right ml-20"> <span className="font-bold">399.98</span> BTC</span> <br />
-                            </div>
-                        </div>
-
-                        <div className="flex justify-items-center justify-around">
                             <div>
-                                <span >161 BTC</span> <span> <span className="font-bold">696152299929.23 </span>NGN</span> <hr />
-                                <br /><span>Amazon Card Bank</span>
-                                <br /><span>Transfer TNG</span>
+                                <div className='mt-6'>
+                                    <div className='flex  justify-evenly items-center'>
+                                        <img src={bank} alt="" />
+                                        <p>Bank Transfer</p>
+                                        <div className='ml-3'>
+                                            <p className='mb-3 font-semibold'>#3452030300303.24/$</p>
+                                        </div>
+                                    </div>
+                                    <div className='flex mt-5  justify-evenly items-center'>
+                                        <img src={bitcoin} alt="" />
+                                        <p>Bank Transfer</p>
+                                        <div className='ml-3'>
+                                            <p className='mb-3 '><span className='font-semibold'>399.98</span>BTC</p>
+                                        </div>
+                                    </div>
+                                    <div className='flex mt-5 justify-evenly items-center'>
+                                        <img src={eth} alt="" />
+                                        <p>Bank Transfer</p>
+                                        <div className='ml-3'>
+                                            <p className='mb-3 '><span className='font-semibold'>100</span>ETH</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div className='flex flex-col justify-around items-center'>
+                                <div className='flex  justify-evenly items-center'>
+                                    <p>Bitcoin BTC      Bank
+                                        Transfer NGN</p>
+                                </div>
+                                <div>
+                                    1.16 BTC = 696152299929.23 NGN
+                                </div>
+                                <div>
+                                    Amazon Card    -  Bank
+                                    Transfer NGN
+                                </div>
                             </div>
                         </div>
+
                     </div>
-
-
                 </div>
-                <hr />
+
             </div>
+
 
             {/* landing page layer 4  */}
 
@@ -171,7 +191,7 @@ const LandingPage = () => {
 
             {/* landing page layer blog 6  */}
 
-             <div>
+            <div>
                 <div className='max-w-[90%] mx-auto'>
                     <h2 className='text-center'><img src={ourBlogIcon} alt="Our Blogs" className='block mx-auto' /></h2>
                     <hr className='w-12 border-2 mx-auto mt-3 border-[#FD749B] rounded-md' />
@@ -226,23 +246,23 @@ const LandingPage = () => {
 
             {/* landing page layer 7  */}
 
-           <div className='section7Bg min-h-[190vh] xs:min-h-[150vh]'>
-        <div className='max-w-[80%] mx-auto '>.
-          <div className='w-[30%]  xs:w-[90%] mx-auto mt-96'>
-            <h2 className='text-center font-bold text-3xl text-white'>10,000 Satisfied clients
-              around the world</h2>
-            <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
-          </div>
-          <div className='w-[40%] xs:w-[90%] mx-auto mt-12 text-white'>
-            <p className='text-base text-center font-normal'>Yeah! we’re proud with numbers. We’ve helped thousands of clients all around the world with our bespoke service. Hover ontop of them pic to view their testimonials.</p>
+            <div className='section7Bg min-h-[190vh] xs:min-h-[150vh]'>
+                <div className='max-w-[80%] mx-auto '>.
+                    <div className='w-[30%]  xs:w-[90%] mx-auto mt-96'>
+                        <h2 className='text-center font-bold text-3xl text-white'>10,000 Satisfied clients
+                            around the world</h2>
+                        <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
+                    </div>
+                    <div className='w-[40%] xs:w-[90%] mx-auto mt-12 text-white'>
+                        <p className='text-base text-center font-normal'>Yeah! we’re proud with numbers. We’ve helped thousands of clients all around the world with our bespoke service. Hover ontop of them pic to view their testimonials.</p>
 
-          </div>
-          <div className='xs:hidden' >
-            <img src={section7} alt=" section7" />
-          </div>
+                    </div>
+                    <div className='xs:hidden' >
+                        <img src={section7} alt=" section7" />
+                    </div>
 
-        </div>
-      </div>
+                </div>
+            </div>
 
             {/* landing page layer 8  */}
             <div className='max-w-[80%] mx-auto mb-10'>
@@ -289,7 +309,7 @@ const LandingPage = () => {
                     </form>
 
                 </div>
-            </div> 
+            </div>
 
         </>
     )
