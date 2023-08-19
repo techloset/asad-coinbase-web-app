@@ -5,6 +5,7 @@ import section7 from '../../images/sction7_2.svg'
 import testimonial from '../../images/Testimonial.svg'
 import download from '../../images/downloadApp.svg'
 import downloadStore from '../../images/Store.svg'
+import section2 from '../../images/Section2.svg'
 import iphone1 from '../../images/X-1.svg'
 import iphone2 from '../../images/X-2.svg'
 import section10 from '../../images/subscribe.svg'
@@ -50,9 +51,7 @@ const LandingPage = () => {
       {/* landing page layer 2 */}
 
       <div className='flex  items-center justify-around px-8 py-5 mt-16 '>
-        <div>
-          <img className="" src="/images/layer.png" alt="layer pic" />
-        </div>
+       <div className='xs:mt-6 '> <img src={section2} alt="Hi image" className='sm:block sm:mx-auto xs:block xs:mx-auto' /></div>
 
         <div>
           <p className="text-2xl font-bold text-purple-500">Welcome To CoinBase</p>
@@ -297,7 +296,7 @@ const LandingPage = () => {
         </div>
         <div className='flex justify-center  my-12  mb-36'>
           <form action="" className='flex justify-center xs:grid xs:grid-cols-1 xs:gap-5'>
-            <input type="Email" placeholder='Email *' className=' mx-8 px-3 py-2 xs:mx-auto rounded-[70px] placeholder-gray-500 border border-pink-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 w-96 xs:w-[90%] ' required />
+            <input type="Email" placeholder='Email *' className=' mx-8 px-3 py-2 xs:mx-auto rounded-[100px] placeholder-gray-500 border border-pink-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 w-96 xs:w-[90%] ' required />
             <button type='submit' className='self-center xs:mx-auto'><img src={discover} alt="" className='' /></button>
           </form>
 
