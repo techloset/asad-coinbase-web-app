@@ -28,7 +28,7 @@ const LandingPage = () => {
   return (
     <>
       {/* landing page layer 1 */}
-      <div className="grid lg:grid-cols-2 sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 heroBg min-h-[120vh] xs:min-h-[160vh]">
+      <div className="grid lg:grid-cols-2 sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 heroBg min-h-[140vh] xs:min-h-[160vh]">
         <div className='mx-auto mt-36 xs:mt-16 xl:ml-48 lg:ml-36 xl:w-[75%] lg:w-[90%] sm:w-[80%] xs:w-[90%] '>
           <h2 className='text-white font-poppins lg:leading-normal sm:leading-normal xs:leading-snug lg:text-[40px] sm:text-4xl xs:text-3xl font-normal'>
             We provide easy solution
@@ -51,7 +51,7 @@ const LandingPage = () => {
       {/* landing page layer 2 */}
 
       <div className='flex  items-center justify-around px-40  font-poppins '>
-       <div className='xs:mt-6 '> <img src={section2} alt="Hi image" className='sm:block sm:mx-auto xs:block xs:mx-auto' /></div>
+       <div className='xs:mt-6 '> <img src={section2} alt="Hi imagae" className='sm:block sm:mx-auto xs:block xs:mx-auto' /></div>
 
         <div>
         <p className="text-2xl font-bold bg-gradient-to-b text-transparent bg-clip-text from-[#FD749B] to-[#281AC8]">Welcome To CoinBase</p>
@@ -61,7 +61,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* landing page section 3 */}
+      {/* landing page section 3 */} 
 
       <div className='heroBg2 min-h-[120vh] xs:hidden sm:hidden lg:block '>
         <div className='pt-[23%]'>
@@ -166,7 +166,7 @@ const LandingPage = () => {
           <div className='lg:max-w-[65%] md:w-[70%] sm:w-[80%] xs:w-[85%] mx-auto mt-28 mb-20 pb-20 shadow-2xl bg-white rounded-[50px] '>
             <div className='pt-14 xs:py-3'>  <h2 className='font-bold lg:text-[28px] xl:w-[53%] sm:leading-normal lg:w-[55%] sm:text-2xl sm:mx-auto xs:text-2xl xs:mx-auto  xs:w-[80%] bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent xs:text-center sm:text-center  '>Trade from anywhere</h2></div>
             <hr className='w-10 border-2 mx-auto mt-3 border-[#FD749B] rounded-md' />
-            <div className='grid grid-cols-2 xs:grid-cols-1 mt-10 px-40'>
+            <div className='grid grid-cols-2 xs:grid-cols-1 mt-10 px-24'>
               <div className='md:px-24 md:py-20 sm:p-20 xs:p-14 mx-auto border-2 border-fuchsia-800 rounded-3xl'>
                 <img src={bitcoin} alt="bitcoin" />
                 <h3 className='mt-7 font-bold text-base'>Bitcoin</h3>
@@ -196,7 +196,7 @@ const LandingPage = () => {
                 <hr className='border-t-2 w-4 rotate-90 mx-2 mt-2' />
                 <span>BUSINESS</span>
               </p>
-              <h2 className=' text-xl mt-3 font-bold text-zinc-500'>HOW TO SELL YOUR ITUNES
+              <h2 className=' text-xl mt-3'>HOW TO SELL YOUR ITUNES
                 GIFTCARD WITH US</h2>
               <p className='mt-3 w-[70%] text-[10px]'>Lorem ipsum dolor sit amet, magna habemus
                 ius ad, qui minimum voluptaria in. Ad mei modus
@@ -204,15 +204,15 @@ const LandingPage = () => {
               <button className='mt-3 grayscale'><img src={readmore} alt="" /></button>
             </div>
 
-            <div className='border-2 rounded-2xl border-fuchsia-800 shadowBlog  bg-white relative sm:w-[80%] lg:w-[30%] xs:w-[95%] z-10 p-11 xs:p-5  '>
+            <div className='border-2 rounded-[20px] border-fuchsia-800 shadowBlog  bg-white relative sm:w-[80%] lg:w-[30%] xs:w-[95%] z-10 py-5 px-[15px] xs:p-5  '>
               <p className='flex justify-start mt-3  text-xs'>
                 <span> 19 June, 2019 </span>
                 <hr className='border-t-2 w-4 rotate-90 mx-2 mt-2' />
                 <span>BUSINESS</span>
               </p>
-              <h2 className='font-bold text-[24px]  mt-3 leading-10 bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent font-[700px]'>ETH TO NAIRA EXCHANGE
+              <h2 className='font-bold text-2xl mt-3 leading-10 bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>ETH TO NAIRA EXCHANGE
                 RATE IS NOW #400 PER...</h2>
-              <p className='mt-3 xl:w-[88%] lg:w-[100%] text-xs leading-7 font-normal text-[12px]'>Lorem ipsum dolor sit amet, magna habemus
+              <p className='mt-3 xl:w-[88%] lg:w-[100%] text-xs leading-7'>Lorem ipsum dolor sit amet, magna habemus
                 ius ad, qui minimum voluptaria in. Ad mei modus
                 quodsi complectitur, postea...</p>
               <Link to="/blogContent" ><button className='mt-3'><img src={readmore} alt="" /></button></Link>
@@ -225,8 +225,8 @@ const LandingPage = () => {
                 <hr className='border-t-2 w-4 rotate-90 mx-2 mt-2' />
                 <span>BUSINESS</span>
               </p>
-              <h2 className=' text-xl mt-3 font-bold text-zinc-500'>EXCHANGE 5 PRODUCTS &
-                GET 1 FREE PRODUCT.</h2>
+              <h2 className=' text-xl mt-3'>EXCHANGE 5 PRODUCTS & 
+GET 1 FREE PRODUCT.</h2>
               <p className='mt-3 w-[70%] text-[10px]'>Lorem ipsum dolor sit amet, magna habemus
                 ius ad, qui minimum voluptaria in. Ad mei modus
                 quodsi complectitur, postea...</p>
@@ -236,21 +236,22 @@ const LandingPage = () => {
         </div>
       </div>
 
+
       {/* landing page layer 7  */}
 
-      <div className='section7Bg min-h-[185vh] xs:min-h-[150vh]'>
+      <div className='section7Bg min-h-[170vh] xs:min-h-[150vh] pb-[150px]'>
         <div className='max-w-[80%] mx-auto '>.
           <div className='w-[30%]  xs:w-[90%] mx-auto sm:mt-[420px] xs:mt-80'>
             <h2 className='text-center font-bold text-[28px]  text-white'>10,000 Satisfied clients
               around the world</h2>
             <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
           </div>
-          <div className='w-[45%] xs:w-[95%] mx-auto mt-12 text-white'>
+          <div className='w-[45%] xs:w-[95%] mx-auto mt-4 text-white'>
             <p className='text-base text-center font-normal leading-[40px]'>Yeah! we’re proud with numbers. We’ve helped thousands of clients all around the world with our bespoke service. Hover ontop of them pic to view their testimonials.</p>
 
           </div>
           <div className='xs:hidden relative' >
-            <img src={section7} alt=" Image" />
+            <img src={section7} alt=" Imagea" />
             <img src={testimonial} alt="" className='absolute xl:left-[530px] md:left-[30%] xl:top-52 md:top-[20%] sm:hidden md:block' />
           </div>
 
@@ -289,7 +290,7 @@ const LandingPage = () => {
       {/* landing page layer 10  */}
       <div className='mt-48'>
         <div className='flex flex-col items-center '>
-          <h2 className='xs:px-5'><img src={section10} alt="" /></h2>
+          <h2 className='xs:px-5 mt-32'><img src={section10} alt="" /></h2>
           <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
           <div className='w-[30%] xs:w-[80%] mt-7'>
             <p className='text-center font-normal leading-loose'>Subscribe to our newsletter for daily/weekly <br /> update of our products and services.</p>

@@ -11,7 +11,7 @@ import AboutQual from '../../images/Qualities.svg'
 const About = () => {
     return (
         <>
-            <div className=" lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 heroBg min-h-[105vh]  lg:flex">
+            <div className=" lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 heroBg min-h-[120vh]  lg:flex">
 
                 <div className=' xs:mx-auto  mt-36 xs:mt-16 sm:mx-auto lg:w-[34%] sm:w-[50%] xs:w-[85%] lg:mx-0'>
                     <div className='text-white text-xs mb-5'><span>HOME/ABOUT US</span></div>
