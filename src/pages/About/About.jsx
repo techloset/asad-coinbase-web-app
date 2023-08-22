@@ -11,10 +11,10 @@ import AboutQual from '../../images/Qualities.svg'
 const About = () => {
     return (
         <>
-            <div className=" lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 heroBg min-h-[120vh]  lg:flex">
+            <div className=" lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 heroBg min-h-[105vh]  lg:flex">
 
-                <div className=' xs:mx-auto mt-36 xs:mt-16 sm:mx-auto lg:w-[34%] sm:w-[50%] xs:w-[85%] lg:mx-0'>
-                    <div className='text-white text-xs mb-5'><span>HOME/ABOUT</span></div>
+                <div className=' xs:mx-auto  mt-36 xs:mt-16 sm:mx-auto lg:w-[34%] sm:w-[50%] xs:w-[85%] lg:mx-0'>
+                    <div className='text-white text-xs mb-5'><span>HOME/ABOUT US</span></div>
                     <h2 className='text-5xl xs:text-3xl text-white font-bold  leading-snug'>
                         Great service,
                         Professional support
@@ -29,8 +29,8 @@ const About = () => {
                 </div>
             </div>
             {/* Section 1 */}
-            <div className='lg:w-[30%] sm:w-[60%] xs:w-[90%] mx-auto sm:mt-10 lg:mt-0'>
-                <h2 className='text-center font-bold text-lg bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>
+            <div className='lg:w-[30%] sm:w-[60%] xs:w-[90%] mx-auto sm:mt-10 lg:mt-[-50px]'>
+                <h2 className='leading-10 text-center font-bold text-lg bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>
                     “Morbi sagittis ultricies ex, a tempus lorem suscipit non. Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”
 
                 </h2>
@@ -42,9 +42,9 @@ const About = () => {
                 <div className='flex flex-col justify-center items-center mt-5'>
                     <div><img src={section2} alt="" /></div>
 
-                    <div className='mt-10'><h2 className='font-bold text-3xl xs:text-2xl xs:text-center text-pink-400 '>About CoinBase</h2></div>
+                    <div className='mt-10'><h2 className='font-bold text-3xl xs:text-2xl xs:text-center bg-gradient-to-b from-[#FD749B] to-[#281AC8] bg-clip-text text-transparent '>About CoinBase</h2></div>
                     <hr className='w-16 border-4 border-pink-500 rounded-xl mt-5 text-center mx-auto' />
-                    <div className='w-[40%] xs:w-[90%] leading-10 mt-6 font-normal text-base'><p className='text-center'>CoinBase is an online site and a p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
+                    <div className='w-[42%] xs:w-[90%] leading-10 mt-6 font-poppins text-base'><p className='text-center'>CoinBase is an online site and a p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
                     </p></div>
                     <div className='mt-10 mb-8 xs:px-4'> <img src={AboutQual} alt="" /></div>
                 </div>
@@ -53,8 +53,8 @@ const About = () => {
 
             {/* History part */}
             <div>
-                <div className="flex justify-center sm:mt-24 sm:w-[80%] sm:mx-auto xs:mt-24 xs:w-[80%] xs:mx-auto mt-32 text-pink-400 sm:text-[28px] xs:text-[28px] text-5xl leading-[65px] font-bold">
-                    Our History
+                <div className="flex justify-center sm:mt-24  sm:w-[80%] sm:mx-auto xs:mt-24 xs:w-[80%] xs:mx-auto mt-32 bg-gradient-to-b from-[#FD749B] to-[#281AC8] bg-clip-text text-transparent sm:text-[28px] xs:text-[28px] text-5xl leading-[65px] font-bold">
+                    Our history
                 </div>
                 <hr className='w-16 border-2 border-pink-500 rounded-sm mt-5 text-center mx-auto' />
                 <div className="flex justify-center   mt-[100px]">
@@ -63,7 +63,7 @@ const About = () => {
                             <div className="flex lg:justify-end sm:justify-center xs:justify-center  text-pink-400  sm:text-[28px] xs:text-[28px] text-4xl font-bold">
                                 May 2010
                             </div>
-                            <div className="mt-5 lg-text-right sm:text-center sm:text-[14px] xs:text-[14px]  text-2xl leading-[30px]">
+                            <div className="mt-5 lg:text-right sm:text-center sm:text-[14px]  xs:text-[14px] text-2xl leading-[30px]">
                                 Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem.
                                 Curabitur aliquam tellus eu nisl suscipit, at vestibulum ex rutrum.
                                 Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum
@@ -114,7 +114,7 @@ const About = () => {
                         <div className='bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] mt-[110px] xs:hidden'></div>
                         <div className='bg-[#C4C4C4] relative ml-[-130px] rounded-xl w-[300px] h-[230px] mt-[85px] xs:hidden'></div>
                         <div className='flex items-end xs:mx-auto bg-gradient-to-b from-[#ed9eb5] to-[#7e78bd] relative ml-[-50px] rounded-xl w-[300px] h-[285px] mt-[60px]'>
-                            <div className='text-white ml-5 mb-5'>CEO <br />
+                            <div className='text-white ml-5 mb-5 font-poppins'>CEO <br />
                                 Amanda Roth </div>
                         </div>
                         <div className='bg-[#C4C4C4] rounded-xl ml-[-50px] w-[300px] h-[230px] mt-[85px] xs:hidden'></div>
@@ -123,18 +123,18 @@ const About = () => {
                 </div>
             </div>
 
-            {/* Subsuribe part*/}
+            {/* Subscribe part*/}
             <div className='mt-20'>
                 <div className='flex flex-col items-center '>
                     <h2 className='xs:px-3'><img src={sub} alt="" /></h2>
                     <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
                     <div className='w-[30%] xs:w-[70%] mt-7'>
-                        <p className='text-base text-center font-normal leading-loose'>Subscribe to our newsletter for daily/weekly update of our products and services.</p>
+                        <p className='text-base text-center font-poppins leading-10'>Subscribe to our newsletter for daily/weekly <br /> update of our products and services.</p>
                     </div>
                 </div>
                 <div className='flex justify-center my-12  mb-36'>
                     <form action="" className='flex justify-center xs:grid xs:gap-4'>
-                        <input type="Email" placeholder='Email *' className=' mx-8 px-3 py-2 placeholder-gray-500 border border-pink-300 rounded-[50px] focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 w-96 xs:w-[90%]  ' required />
+                        <input type="Email" placeholder='Email ' className=' mx-3 px-3 py-2 placeholder-gray-500 border border-pink-300 rounded-[50px] focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 w-96 xs:w-[90%]  ' required />
                         <button type='submit' className='self-center xs:mx-auto'><img src={discover} alt="" className='' /></button>
                     </form>
 

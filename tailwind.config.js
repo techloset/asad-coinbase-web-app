@@ -14,7 +14,10 @@ module.exports = {
         'path4.1': "url('/images/path4.1.png')",
 
         
-      }
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],

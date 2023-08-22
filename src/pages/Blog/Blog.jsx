@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Bloghero from '../../images/BlogHero.svg'
 import main1 from '../../images/exchange1.svg'
 import main2 from '../../images/main2.svg'
@@ -49,11 +50,11 @@ function Blog() {
 
                 <div className='lg:w-[34%] sm:w-[50%] xs:w-[85%] xs:mx-auto mt-36 xs:mt-16 sm:mx-auto lg:mx-0'>
                     <div className='text-white text-xs mb-5'><span>HOME/BLOG</span></div>
-                    <h2 className='text-5xl text-white font-["Open Sans"] leading-snug'>
+                    <h2 className='text-5xl text-white font-poppins font-bold leading-snug'>
                         Stay updated,
                         Never miss a post.
                     </h2>
-                    <p className='mt-8 leading-9 text-lg text-white font-normal w-[89%]'>Get to know the latest stuff about our services
+                    <p className='mt-8 leading-9 text-lg font-poppins text-white font-normal w-[89%]'>Get to know the latest stuff about our services
                         via our blog post.
                     </p>
 
@@ -77,11 +78,11 @@ function Blog() {
                                 <hr className='border-t-2 w-4 rotate-90 mx-2 mt-2 border-[#333333] ' />
                                 <span>{info.subp2}</span>
                             </p>
-                            <p className='w-[70%] text-center text-base font-norma mt-7'>
+                            <p className='w-[70%] text-center text-base font-poppins mt-7'>
                                 {info.p1}
                             </p>
-                            {/* link */}
-                            <button className='mt-7 mb-12'>{info.btn}</button>
+                            {/* link blogContent*/}
+                         <Link to="/blogContent"><button className='mt-7 mb-12'>{info.btn}</button></Link>
 
                         </div>
 

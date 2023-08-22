@@ -8,22 +8,22 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <div className="py-3 container mx-auto xs:hidden">
+      <div className="py-3 container mx-auto xs:hidden font-poppins">
         <div className="flex items-center  justify-around my-5">
           <div className="b">
             <Link to="./"><img src="/images/Logo.png" alt="logo" /> </Link>
           </div>
 
           <div className="flex justify-between">
-            <Link to="./">  <span className="ml-6 font-bold">Home</span> </Link>
-            <Link to="./about"> <span className="ml-6 font-bold">About Us</span></Link>
-            <Link to="./blog">  <span className="ml-6 font-bold">Blog</span></Link>
-            <span className="ml-6 font-bold">Contact Us</span>
+            <Link to="./">  <span className="ml-20 font-bold">Home</span> </Link>
+            <Link to="./about"> <span className="ml-20 font-bold">About Us</span></Link>
+            <Link to="./blog">  <span className="ml-20 font-bold">Blog</span></Link>
+            <span className="ml-20 font-bold">Contact Us</span>
           </div>
 
           <div className="flex items-center ">
             <span className="ml-3 font-bold">Sell Bitcoin/GiftCard</span>
-            <button class="login-header rounded-3xl border-2 px-7 py-3 ml-4 font-bold text-white">LOGIN</button>
+            <button class="login-header rounded-3xl border-2 w-[157px] h-[54px] ml-4 font-bold text-white">LOGIN</button>
           </div>
         </div>
       </div>
