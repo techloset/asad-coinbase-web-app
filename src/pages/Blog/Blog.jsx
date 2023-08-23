@@ -48,9 +48,9 @@ function Blog() {
 
             <div className="heroBg min-h-[148vh]  lg:flex lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1  ">
 
-                <div className='lg:w-[34%] sm:w-[50%] xs:w-[85%] xs:mx-auto mt-36 xs:mt-16 sm:mx-auto lg:mx-0'>
+                <div className='pl-8 pt-8 lg:w-[35%] sm:w-[50%] xs:w-[85%] xs:mx-auto mt-36 xs:mt-16 sm:mx-auto lg:mx-0'>
                     <div className='text-white text-xs mb-5'><span>HOME/BLOG</span></div>
-                    <h2 className='text-5xl text-white font-poppins font-bold leading-snug'>
+                    <h2 className='text-[40px] text-white font-poppins font-bold leading-snug'>
                         Stay updated,
                         Never miss a post.
                     </h2>
@@ -78,7 +78,7 @@ function Blog() {
                                 <hr className='border-t-2 w-4 rotate-90 mx-2 mt-2 border-[#333333] ' />
                                 <span>{info.subp2}</span>
                             </p>
-                            <p className='w-[70%] text-center text-base font-poppins mt-7'>
+                            <p className='w-[82%] text-center text-base font-poppins font-[16px] mt-7'>
                                 {info.p1}
                             </p>
                             {/* link blogContent*/}
@@ -98,15 +98,15 @@ function Blog() {
                         <li className='mt-5 mr-2'>
                         </li>
                         <li>
-                            <a href="#" aria-current="page" class="flex items-center login-header  text-white rounded-full mt-5 mr-3 justify-center px-4 h-10 leading-tight border border-gray-300 hover:bg-purple-800 hover:text-white ">01</a>
+                            <a href="#" aria-current="page" class="flex items-center login-header  text-white rounded-full mt-5 mr-3 justify-center px-3 h-10 leading-tight border border-gray-300 hover:bg-purple-800 hover:text-white ">01</a>
 
 
                         </li>
                         <li>
-                            <a href="#" aria-current="page" class="flex items-center bg-white   text-gray-600 rounded-full mt-5 mr-3 justify-center px-4 h-10 leading-tight border border-gray-300 hover:bg-gray-100 hover:text-gray-700 ">02</a>
+                            <a href="#" aria-current="page" class="flex items-center bg-white   text-gray-600 rounded-full mt-5 mr-3 justify-center px-3 h-10 leading-tight border border-gray-300 hover:bg-gray-100 hover:text-gray-700 ">02</a>
                         </li>
                         <li>
-                            <a href="#" aria-current="page" class="flex items-center bg-white   text-gray-600 rounded-full mt-5 mr-3 justify-center px-4 h-10 leading-tight border border-gray-300 hover:bg-gray-100 hover:text-gray-700">03</a>
+                            <a href="#" aria-current="page" class="flex items-center bg-white   text-gray-600 rounded-full mt-5 mr-3 justify-center px-3 h-10 leading-tight border border-gray-300 hover:bg-gray-100 hover:text-gray-700">03</a>
                         </li>
                         <li>
                             <a href="#" aria-current="page" class="flex items-center bg-white   text-gray-600 rounded-full mt-5 mr-3 justify-center px-4 h-10 leading-tight border border-gray-300 hover:bg-gray-100 hover:text-gray-700">...</a>

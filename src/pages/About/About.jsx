@@ -19,7 +19,7 @@ const About = () => {
                         Great service,
                         Professional support
                     </h2>
-                    <p className='mt-8 leading-9 text-lg text-white font-normal w-[89%]'>CoinBase is a platform for trading your bitcoin and
+                    <p className='mt-8 leading-9 text-lg text-white font-normal w-[95%]'>CoinBase is a platform for trading your bitcoin and
                         giftcard at the best rate, why not give us a trial.
                     </p>
 
@@ -44,7 +44,7 @@ const About = () => {
 
                     <div className='mt-10'><h2 className='font-bold text-3xl xs:text-2xl xs:text-center bg-gradient-to-b from-[#FD749B] to-[#281AC8] bg-clip-text text-transparent '>About CoinBase</h2></div>
                     <hr className='w-16 border-4 border-pink-500 rounded-xl mt-5 text-center mx-auto' />
-                    <div className='w-[42%] xs:w-[90%] leading-10 mt-6 font-poppins text-base'><p className='text-center'>CoinBase is an online site and a p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
+                    <div className='w-[57%] xs:w-[90%] leading-10 mt-6 font-poppins text-base'><p className='text-center'>CoinBase is an online site and a p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
                     </p></div>
                     <div className='mt-10 mb-8 xs:px-4'> <img src={AboutQual} alt="" /></div>
                 </div>
@@ -103,13 +103,13 @@ const About = () => {
             {/* Meet the Team part */}
 
             <div className='mt-20 '>
-                <div className='flex flex-col items-center justify-center'>
+                <div className='flex flex-col items-center justify-center font-poppins'>
                     <h2 className='font-bold text-3xl bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>Meet the team</h2>
                     <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
-                    <p className='w-[35%] text-center mt-4'>Meet the team that  makes the process of this system fast and painless as possible to provide you with good result </p>
+                    <p className='w-[40%] text-center mt-4'>Meet the team that  makes the process of this system fast and painless as possible to provide you with good result </p>
                 </div>
 
-                <div className='mt-10 w-[90%] mx-auto'>
+                <div className='mt-10 w-[90%] mx-auto '>
                     <div className='flex justify-center'>
                         <div className='bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] mt-[110px] xs:hidden'></div>
                         <div className='bg-[#C4C4C4] relative ml-[-130px] rounded-xl w-[300px] h-[230px] mt-[85px] xs:hidden'></div>
@@ -117,8 +117,8 @@ const About = () => {
                             <div className='text-white ml-5 mb-5 font-poppins'>CEO <br />
                                 Amanda Roth </div>
                         </div>
-                        <div className='bg-[#C4C4C4] rounded-xl ml-[-50px] w-[300px] h-[230px] mt-[85px] xs:hidden'></div>
-                        <div className='bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] ml-[-130px] mt-[110px] xs:hidden'></div>
+                        <div className='  bg-[#C4C4C4] rounded-xl ml-[-50px] w-[300px] h-[230px] mt-[85px] xs:hidden 	'></div>
+                        <div className=' bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] ml-[-130px] mt-[110px] xs:hidden 	'></div>
                     </div>
                 </div>
             </div>

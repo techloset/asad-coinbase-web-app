@@ -23,7 +23,7 @@ const BlogContent = () => {
                 </div>
             </div>
             <div className='md:max-w-[50%] xs:max-w-[90%] sm:max-w-[80%]  mx-auto '>
-                <p className='text-base leading-8'>
+                <p className='text-base leading-8 font-poppins'>
                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
                     <br />
                     <br />
@@ -41,15 +41,14 @@ const BlogContent = () => {
                 </p>
                 <div className='grid grid-cols-2 gap-5 mt-20 xs:grid-cols-1' >
                     <div>
-                        <p className='text-base leading-[30px]'>
+                        <p className='text-base leading-[30px] font-poppins text-[13px]'>
                             If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to your “chores” for keeping the ship in top shape and on course.
-                            <br />
                             <br />
                             Destinations & Ports of important Charter Companies  One of the greatest benefits of choosing a chartered cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want to add or subtract stops along the way.
                         </p>
                     </div>
                     <div>
-                        <img src={BitCoinImg} alt="Bitcoin" />
+                        <img src={BitCoinImg} className='h-[435px]' alt="Bitcoin" />
                     </div>
                 </div>
                 <div className='mt-20'>
@@ -73,7 +72,9 @@ const BlogContent = () => {
                         How to sell your iTunes giftcard with us
                     </h3></div>
                     <div className='flex justify-end xs:justify-start'>
-                        <img src={Exchange5} alt="Exchange 5 Products and get 1 free product" />
+                        <h2 className='font-bold font-opensans text-right text-[18px] bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>
+                            Exchange 5 products <p>and get 1 free product</p>
+                        </h2>
                     </div>
                     <div>
                         <span className='text-xs text-gray-400 xs:text-left'>Prev Post</span>
@@ -85,8 +86,8 @@ const BlogContent = () => {
 
                 <div className='mt-24'>
                     <h2 className='font-bold text-2xl'>Leave A Comment</h2>
-                    <p className='font-normal text-base mt-3 text-[#333333]'>Your email address will not be published. Required fields are marked *</p>
-                    <form action="" className='mt-6 mb-14'>
+                    <p className='font-normal font-poppins text-base mt-3 text-[#333333]'>Your email address will not be published. Required fields are marked *</p>
+                    <form action="" className='mt-6 mb-10'>
                         <input type="text" placeholder='Name *' className=' px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full ' required />
                         <input type="Email" placeholder='Email *' className=' md:ml-3 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required />
                         <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-8 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>

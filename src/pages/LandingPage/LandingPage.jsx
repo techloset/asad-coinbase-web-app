@@ -263,8 +263,8 @@ GET 1 FREE PRODUCT.</h2>
         <div className='flex flex-col items-center'>
           <div className='xs:py-5'><img src={download} alt="" /></div>
           <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
-          <div className='w-[30%] xs:w-[80%] mt-7'>
-            <p className='text-base text-center font-Poppins font-normal text-[16px] leading-loose'>Discover exclusive deals and discounts with
+          <div className='w-[35%] xs:w-[80%] mt-7'>
+            <p className='text-base text-center font-poppins font-normal text-[16px] leading-loose'>Discover exclusive deals and discounts with
               our mobile experience.</p>
           </div>
           <div className='mt-5'>
@@ -293,7 +293,7 @@ GET 1 FREE PRODUCT.</h2>
           <h2 className='xs:px-5 mt-32'><img src={section10} alt="" /></h2>
           <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
           <div className='w-[30%] xs:w-[80%] mt-7'>
-            <p className='text-center font-normal leading-loose'>Subscribe to our newsletter for daily/weekly <br /> update of our products and services.</p>
+            <p className='text-center font-normal font-poppins leading-loose'>Subscribe to our newsletter for daily/weekly update of our products and services.</p>
           </div>
         </div>
         <div className='flex justify-center  my-12  mb-36'>
