@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom'
+import drop from '../images/Dropdown.svg'
 import { useState } from "react";
 
 
@@ -23,6 +24,12 @@ const Navbar = () => {
 
           <div className="flex items-center ">
             <span className="ml-3 font-bold">Sell Bitcoin/GiftCard</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6" fill="none" className='inline mt-6 ml-2'>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.82673 5.12603C4.42977 5.70824 3.57124 5.70824 3.17428 5.12603L0.745171 1.56334C0.292575 0.899528 0.767979 0 1.5714 0H6.42961C7.23303 0 7.70844 0.899529 7.25584 1.56334L4.82673 5.12603Z" fill="#333333" />
+          </svg>
+         
+          <img src={drop} alt="" className='absolute top-[80px] right-[68px] 2xl:hidden xl:block sm:hidden xs:hidden ' />
+
             <button class="login-header rounded-3xl border-2 w-[157px] h-[54px] ml-4 font-bold text-white">LOGIN</button>
           </div>
         </div>

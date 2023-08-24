@@ -29,8 +29,8 @@ const About = () => {
                 </div>
             </div>
             {/* Section 1 */}
-            <div className='lg:w-[30%] sm:w-[60%] xs:w-[90%] mx-auto sm:mt-10 lg:mt-[-50px]'>
-                <h2 className='leading-10 text-center font-bold text-lg bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>
+            <div className='lg:w-[39%] sm:w-[60%] xs:w-[90%] mx-auto sm:mt-10 lg:mt-[-50px]'>
+                <h2 className='font-poppins leading-10 text-center font-bold text-lg bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>
                     “Morbi sagittis ultricies ex, a tempus lorem suscipit non. Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”
 
                 </h2>
