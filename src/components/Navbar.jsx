@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="./blog">  <span className="ml-20 font-bold">Blog</span></Link>
             <span className="ml-20 font-bold">Contact Us</span>
           </div>
-
+          
           <div className="flex items-center ">
             <span className="ml-3 font-bold">Sell Bitcoin/GiftCard</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6" fill="none" className='inline mt-6 ml-2'>
@@ -56,6 +56,7 @@ const Navbar = () => {
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
+                    
                       <path
                         fillRule="evenodd"
                         d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"

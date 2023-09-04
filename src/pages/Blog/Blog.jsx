@@ -46,7 +46,7 @@ function Blog() {
     return (
         <>
 
-            <div className="heroBg min-h-[148vh]  lg:flex lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1  ">
+            <div className="heroBg min-h-[148vh]  lg:flex lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 lg:heroBg xl:min-h-[100vh]  ">
 
                 <div className='pl-8 pt-8 lg:w-[35%] sm:w-[50%] xs:w-[85%] xs:mx-auto mt-36 xs:mt-16 sm:mx-auto lg:mx-0'>
                     <div className='text-white text-xs mb-5'><span>HOME/BLOG</span></div>
@@ -59,7 +59,7 @@ function Blog() {
                     </p>
 
                 </div>
-                <div className='sm:mx-auto lg:mx-0' >
+                <div className='sm:mx-auto lg:pb lg:mx-0' >
                     <img src={Bloghero} alt="Bitcoin" className='mt-20' />
                 </div>
             </div>
