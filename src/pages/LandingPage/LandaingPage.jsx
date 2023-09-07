@@ -33,7 +33,7 @@ import smallbtc from '../../images/smallbtc.svg'
 function LandaingPage() {
   return (
     <>
-      {/* Section 1  */}
+      {/* Section 1 hero section  */}
       <div className="font-poppins heroBg lg:min-h-[100vh] sm:min-h-[130vh] xs:min-h-[160vh]  grid lg:grid-cols-2 sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 ">
         <div className='xl:w-[529px] lg:w-[90%] sm:w-[80%] xs:w-[90%] mx-auto mt-36 xs:mt-16 xl:ml-48 lg:ml-36'>
           <h2 className='lg:text-[40px] font-poppins sm:text-4xl xs:text-3xl font-normal text-white font-["Open Sans"] lg:leading-normal sm:leading-normal xs:leading-snug'>
@@ -47,14 +47,14 @@ function LandaingPage() {
           <button className='mt-9'><img src={Get_started} alt="" /></button>
         </div>
         <div className='sm:mx-auto lg:mx-0 lg:ml-10 md:mt-0 ' >
-          <img src={hero2} alt="Bitcoin" className='sm:mt-16 xs:mt-3 md:mb-64' />
+          <img src={hero2} alt="Bitcoin" className='sm:mt-16 xs:-mt-12 md:mb-64' />
 
         </div>
 
       </div>
 
-      {/* Section 2 */}
-      <div className='max-w-[90%] mx-auto lg:mb-[-135px] lg:mt-[-80px]'>
+      {/* Section 2 Welcome to coinBase */}
+      <div className='max-w-[90%] mx-auto lg:mb-[-135px] lg:mt-[-80px] xs:mt-[-140px]'>
         <div className='grid lg:grid-cols-2 sm:grid-cols-1 sm:mx-auto xs:grid-cols-1 xs:mx-auto mt-12'>
           <div className='xs:mt-6 '> <img src={section2} alt="Hi image" className='sm:block sm:mx-auto xs:block xs:mx-auto' /></div>
           <div className='sm:mt-10 lg:mt-0 xs:mt-9'>
@@ -70,7 +70,7 @@ function LandaingPage() {
       {/* Section 3 */}
 
       <div className='heroBg2 min-h-[145vh] xs:hidden sm:hidden lg:block '>
-        <div className='xl:pt-[29%] lg:pt-[35%]'>
+        <div className='xl:pt-[37%] lg:pt-[50%]'>
           <div className='max-w-[77%] mx-auto bg-white pb-10 rounded-3xl'>
             <div className='flex justify-between py-7'>
               <h2><img src={OurRates} alt="" className='ml-[64px]' /></h2>
@@ -117,7 +117,7 @@ function LandaingPage() {
                       <p className='mb-3 '><span className='font-semibold mr-3'>399.98</span>BTC</p>
                     </div>
                   </div>
-
+                  
                   <div className='flex mt-10 justify-around items-center'>
                     <img src={eth} alt="" />
                     <p className='-ml-4'>Ethereum</p>
@@ -135,7 +135,7 @@ function LandaingPage() {
                   <button className='text-center mt-2 text-white w-[85.67px] h-[24px] text-[8px] font-bold leading-[25px]  bg-gradient-to-b  from-[#FD749B]  to-[#281AC8] rounded-[5px]'>
                     8 hours ago
                   </button>
-
+                  
                 </div>
                 <div className='flex -ml-28 mt-0  justify-evenly items-center'>
                   <p>Bitcoin BTC   <svg xmlns="http://www.w3.org/2000/svg" width="15" height="6" viewBox="0 0 15 6" fill="none" className='inline mx-2'>
@@ -163,7 +163,7 @@ function LandaingPage() {
                         <stop offset="1" stop-color="#281AC8" />
                       </linearGradient>
                     </defs>
-
+                  
                   </svg> <span className='font-bold'>696152299929.23 </span>NGN
                 </div>
                 <hr className='w-[90%] border border-[#BBBBBB] ' />
@@ -202,7 +202,7 @@ function LandaingPage() {
         <div> <img src={section4} alt="Hi image" className='sm:block lg:ml-14 sm:mx-auto xs:block xs:mx-auto' /></div>
       </div>
 
-      {/* Section 5 */}
+      {/* Section 5 Trade from anywhere */}
       <div className='landingSection5 min-h-[40vh] '>
         <div className='mt-32'>.
           <div className='lg:max-w-[65%] md:w-[70%] sm:w-[80%] xs:w-[85%] mx-auto mt-28 mb-20 pb-[85px] shadowTrade  '>
@@ -224,7 +224,7 @@ function LandaingPage() {
       </div>
 
 
-      {/* Section 6 */}
+      {/* Section 6  our blogs */}
       <div className='lg:mt-36'>
         <div className='max-w-[90%] mx-auto'>
           <h2 className='font-bold lg:text-[28px] xl:w-[53%] sm:leading-normal lg:w-[55%] sm:text-2xl sm:mx-auto xs:text-2xl xs:mx-auto  xs:w-[80%] bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent xs:text-center sm:text-center  '>Our blog</h2>
@@ -281,10 +281,10 @@ function LandaingPage() {
       {/* Section 7 */}
       <div className='section7Bg min-h-[180vh] xs:min-h-[150vh] lg:mt-[-40px]'>
         <img src={graphics} alt="" className='relative top-[427px] left-[232px] xl:block sm:hidden xs:hidden' />
-
-
+          
+          
         <div className='max-w-[80%] mx-auto '>.
-          <div className='w-[30%]  xs:w-[90%] mx-auto sm:mt-[420px] xs:mt-80 xl:mt-80'>
+          <div className='w-[30%]  xs:w-[90%] mx-auto sm:mt-[420px] xs:mt-80 xl:mt-96'>
             <h2 className='text-center font-bold text-[28px]  text-white'>10,000 Satisfied clients
               around the world</h2>
             <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
@@ -328,7 +328,6 @@ function LandaingPage() {
             <img src={iphone2} alt="" />
           </div>
         </div>
-
       </div>
 
       {/* Section 10 */}
@@ -345,9 +344,16 @@ function LandaingPage() {
             <input type="Email" placeholder='EMAIL' className='  mx-[9px] px-5 py-2 xs:mx-auto placeholder-gray-500 border border-pink-300 rounded-[100px] focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 w-96 xs:w-[90%] ' required />
             <button type='submit' className='self-center xs:mx-auto'><img src={discover} alt="" className='' /></button>
           </form>
-
+          
         </div>
       </div>
+
+      {/* End  */}
+
+
+
+
+
 
 
     </>

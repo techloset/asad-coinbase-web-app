@@ -2,55 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
-
-   
-    .landingSection5 {
-        background-image: url("/src/images/Section5Landing.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left;
-
-    }
-
-    .section9 {
-        background-image: url("/src/images/section9.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left;
-    }
-
-    .login-header {
-        background-image: linear-gradient(rgba(253, 116, 155, 1), rgba(40, 26, 200, 1));
-    }
-
-
-
-    .cardborder {
-        background: linear-gradient(white, white) padding-box,
-            linear-gradient(to right, darkblue, darkorchid) border-box;
-        border-radius: 0 0 24px 24px;
-        border: 1px solid transparent;
-        border-top: 0;
-    }
-
-    .BlogContentHero {
-        background-image: url("/src/images/BlogContentBg.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left;
-
-    }
-
-    .cardborderLanding {
-        background: linear-gradient(white, white) padding-box,
-            linear-gradient(to right, darkblue, darkorchid) border-box;
-        border-radius: 15px 15px 15px 15px;
-        border: 1px solid transparent;
-
-    }
-
     .heroBg {
         background-image: url("/src/images/BG.svg");
         background-repeat: no-repeat;
@@ -69,6 +21,40 @@
         background-image: url("/src/images/BG-1.svg");
     }
 
+    .landingSection5 {
+        background-image: url("/src/images/Section5Landing.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+
+    }
+
+    .BlogContentHero {
+        background-image: url("/src/images/BlogContentBg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+
+    }
+
+    /* .cardborderLanding{
+        background: linear-gradient(white, white) padding-box,
+                  linear-gradient(to right, darkblue, darkorchid) border-box;
+      border-radius: 15px 15px 15px 15px;
+      border: 1px solid transparent;
+    
+    } */
+    .shadowTrade {
+        border-radius: 30px;
+        background: #FFF;
+        box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .shadowBlog {
+        border-radius: 15px;
+        background: #FFF;
+        box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.10);
+    }
 
     .section7Bg {
         background-image: url("/src/images/section7bg.svg");
@@ -78,6 +64,48 @@
 
     }
 
-   
+    .section9 {
+        background-image: url("/src/images/section9.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
 
+    .login-header {
+        background-image: linear-gradient(rgba(253, 116, 155, 1), rgba(40, 26, 200, 1));
+    }
+
+    .cardborder {
+        background: linear-gradient(white, white) padding-box,
+            linear-gradient(to right, darkblue, darkorchid) border-box;
+        border-radius: 0 0 24px 24px;
+        border: 1px solid transparent;
+        border-top: 0;
+    }
+
+    .fontcolorabout {
+        background: var(--3, linear-gradient(180deg, #FD749B 75%, #281AC8 90%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .landingColor {
+        background: var(--3, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+   a.active .underline1{
+    width: 22px;
+        height: 3px;
+        background: linear-gradient(185deg, #FD749B 0%, #281AC8 100%);
+        margin: 0 auto;
+        margin-top: 8px;
+   }
+   .shadowabout{
+    filter: drop-shadow(0px 50px 100px rgba(0, 0, 0, 0.10));
+   }
+  
 }

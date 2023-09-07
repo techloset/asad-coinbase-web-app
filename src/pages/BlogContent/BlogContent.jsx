@@ -1,18 +1,18 @@
 import React from 'react'
-import Exchange5 from '../../images/Exchange5.svg'
-import Publish from '../../images/PublishBtn.svg'
 import BitCoinImg from '../../images/BlogContentBitCoin.svg'
 import SocialIconsF from '../../images/Social_Icons2.svg'
+import Exchange5 from '../../images/Exchange5.svg'
+import Publish from '../../images/PublishBtn.svg'
 
 
 
-const BlogContent = () => {
+function BlogContent() {
     return (
         <>
-            {/* Blog page Data */}
-            <div className="flex justify-center BlogContentHero min-h-[100vh]">
-                <div className='sm:mt-60 xs:mt-44 sm:w-[50%] xs:w-[80%]'>
-                    <h2 className='leading-snug text-3xl text-center text-white  '>
+            {/* Hero Section Blog Content Page */}
+            <div className="BlogContentHero min-h-[100vh]  flex justify-center">
+                <div className='sm:w-[55%] xs:w-[80%]  sm:mt-60 xs:mt-44'>
+                    <h2 className='text-[2rem] text-center text-white font-bold  leading-[45px]'>
                         ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER Transactions
                     </h2>
                     <p className='flex justify-center mt-3 text-white text-xs'>
@@ -22,8 +22,8 @@ const BlogContent = () => {
                     </p>
                 </div>
             </div>
-            <div className='md:max-w-[50%] xs:max-w-[90%] sm:max-w-[80%]  mx-auto '>
-                <p className='text-base leading-8 font-poppins'>
+            <div className='md:max-w-[52%] xs:max-w-[90%] sm:max-w-[80%]  mx-auto '>
+                <p className='text-base leading-8'>
                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
                     <br />
                     <br />
@@ -39,16 +39,17 @@ const BlogContent = () => {
                     Determining the type of cruise is another aspect of planning a chartered yachting trip. You can have as little or many crew members as the ship will hold. A captain takes all the worries out of navigating and onboard housekeeping services make it a real vacation that rivals the finest hotel services. You can also choose to have a chef and service crew as part of your vacation package.
 
                 </p>
-                <div className='grid grid-cols-2 gap-5 mt-20 xs:grid-cols-1' >
+                <div className='grid grid-cols-2 gap-11 mt-14 xs:grid-cols-1' >
                     <div>
-                        <p className='text-base leading-[30px] font-poppins text-[13px]'>
+                        <p className='text-base leading-[30px]'>
                             If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to your “chores” for keeping the ship in top shape and on course.
+                            <br />
                             <br />
                             Destinations & Ports of important Charter Companies  One of the greatest benefits of choosing a chartered cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want to add or subtract stops along the way.
                         </p>
                     </div>
                     <div>
-                        <img src={BitCoinImg} className='h-[435px]' alt="Bitcoin" />
+                        <img src={BitCoinImg} alt="Bitcoin" />
                     </div>
                 </div>
                 <div className='mt-20'>
@@ -72,31 +73,29 @@ const BlogContent = () => {
                         How to sell your iTunes giftcard with us
                     </h3></div>
                     <div className='flex justify-end xs:justify-start'>
-                        <h2 className='font-bold font-opensans text-right text-[18px] bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>
-                            Exchange 5 products <p>and get 1 free product</p>
-                        </h2>
+                        <h2 className='font-bold text-[18px] xl:w-[60%] sm:leading-[25px] sm:w-[85%]  lg:mx-0 sm:mx-auto xs:text-xl   xs:w-[80%] bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent xs:text-center sm:text-center'> Exchange 5 products and get 1 free product</h2>
                     </div>
                     <div>
                         <span className='text-xs text-gray-400 xs:text-left'>Prev Post</span>
                     </div>
                     <div>
-                        <span className='text-xs text-gray-400  flex justify-end xs:justify-start'>Next Post</span>
+                    <span className='text-xs text-gray-400  flex justify-end xs:justify-start'>Next Post</span>
                     </div>
                 </div>
-
-                <div className='mt-24'>
+            </div>
+                <div className='mt-24 lg:mt-[114px]  xs:max-w-[90%] sm:max-w-[80%] xl:w-[58%] mx-auto xl:ml-[358px] 2xl:mx-auto '>
                     <h2 className='font-bold text-2xl'>Leave A Comment</h2>
-                    <p className='font-normal font-poppins text-base mt-3 text-[#333333]'>Your email address will not be published. Required fields are marked *</p>
-                    <form action="" className='mt-6 mb-10'>
-                        <input type="text" placeholder='Name *' className=' px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full ' required />
-                        <input type="Email" placeholder='Email *' className=' md:ml-3 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required />
-                        <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-8 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>
-                        <button type='submit' className='mt-3'>
-                            <img src={Publish} alt="Publish" />
-                        </button>
+                    <p className='font-normal text-base mt-3 text-[#333333]'>Your email address will not be published. Required fields are marked *</p>
+                    <form action="" className='mt-6 mb-14 lg:mb-[115px]'>
+                        <input type="text" placeholder='Name *' className=' px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1] rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 xl:w-[47%] md:w-[48%]  xs:w-full sm:w-full ' required/>
+                        <input type="Email" placeholder='Email *' className=' md:ml-3 xl:ml-[46px] px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1]  rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 xl:w-[47%] md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required/>
+                        <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-[30px] px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1]  rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>
+                    <button type='submit' className='lg:mt-[50px] mt-5'>
+                        <img src={Publish} alt="Publish" />
+                    </button>
                     </form>
                 </div>
-            </div>
+            
         </>
     )
 }
